@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>淘宝，美食汇</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.wrap {
+				width: 1200px;
+				height: 400px;
+				margin: 50px auto;
+				/*				background-color: green;*/
+				color: #fff;
+			}
+			
+			.w-content {
+				width: 100%;
+				height: 100%;
+				margin: 10px auto;
+			}
+			
+			.content {
+				position: relative;
+				float: left;
+				width: 32%;
+				height: 180px;
+				margin: 0.5% 0.65%;
+				/*margin-left: 1%;
+				margin-bottom: 1%;*/
+				text-align: center;
+			}
+			
+			.content:hover .hide {
+				/*当鼠标放到content里让hide执行{}中的代码*/
+				/*display: block;*/
+				opacity: 1;
+			}
+			
+			.images {
+				width: 100%;
+				height: 100%;
+				vertical-align: middle;
+				/*基线对其方式,此处可以消除img和p之间的间距*/
+			}
+			
+			.title {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: 35px;
+				background-color: rgba(0, 0, 0, .5);
+				line-height: 35px;
+				font-size: 16px;
+				text-indent: 16px;
+			}
+			
+			.hide {
+				/*display: none;*/
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, .5);
+				text-align: center;
+				opacity: 0;
+				transition: 1s;
+			}
+			
+			.h-head {
+				display: block;
+				margin: 15px auto;
+			}
+			
+			.h-title {
+				display: inline-block;
+				border-bottom: double;
+				font-size: 18px;
+				/*text-align: center;*/
+				/*行内元素  居中对其*/
+			}
+			
+			.more {
+				position: absolute;
+				left: 50%;
+				padding: 5px 15px;
+				margin-top: 8px;
+				border: 1px solid;
+				border-radius: 8px;
+				transform: translateX(-50%);
+				/*css3变换属性，移动自身x方法*/
+			}
+			
+			.more a {
+				/*a标签不会继承文本样式属性,如color,所以需要重新设置*/
+				color: #fff;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="w-content">
+				<div class="content">
+					<img src="img/1.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<img src="img/2.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<img src="img/3.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<img src="img/4.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<img src="img/5.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<img src="img/6.webp" alt="" class="images" />
+					<p class="title">口水菌品鉴| 宅男宅女觅食记</p>
+					<div class="hide">
+						<img src="img/1.png" alt="" class="h-head" />
+						<div class="h-title">
+							<img src="img/2.png" alt="" class="icon" />
+							<span>口水菌品鉴| 宅男宅女觅食记</span>
+							<img src="img/3.png" alt="" class="icon" />
+						</div>
+						<div class="more">
+							<a href="https://www.sbzr.com" target="_blank">立即查看</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
